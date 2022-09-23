@@ -32,8 +32,7 @@ def check_model_drift(latestscore_file="latestscore.txt"):
         old_f1score = float(f.readline().strip())
 
     train()
-    # new_f1score = score()
-    new_f1score = 1.0
+    new_f1score = score()
 
     return new_f1score > old_f1score, new_f1score, old_f1score
 
