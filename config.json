@@ -1,0 +1,11 @@
+{ 
+    "input_folder_path": "practicedata", 
+    "output_folder_path": "ingesteddata", 
+    "test_data_path": "testdata", 
+    "output_model_path": "practicemodels", 
+    "prod_deployment_path": "production_deployment",
+    "model_scores_path": "modelscores",
+    "reports_path": "reports",
+    "api_responses": "api_responses",
+    "source_data": "sourcedata"
+}
