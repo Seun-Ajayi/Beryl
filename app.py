@@ -24,8 +24,8 @@ prediction_model = load_model()
 encoder = load_model(modelfile="encoder.pkl")
 X, y, _ = preprocess_data(datapath=test_data_path, encoder=encoder, training=False)
 
-def read_data(filename):
-    data = pd.read_csv(os.path.join(os.getcwd(), dataset_csv_path, filename))
+def read_data(filename, filepath):
+    data = pd.read_csv(os.path.join(os.getcwd(), filepath, filename))
     return data
 
 
